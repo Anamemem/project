@@ -18,7 +18,8 @@ export default function Home() {
            width="100%">
 
            <Typography textAlign="center"
-            fontSize={{xs:"38px", sm:"68px", md:"84px"}} style={{fontWeight: "700"}}> Invest in what <br />
+            fontSize={{xs:"38px", sm:"68px", md:"84px"}} 
+            style={{fontWeight: "700"}}> Invest in what <br />
            you believe in.</Typography>
 
            <Box px={{xs:"57px", sm:"121px", md:"114px"}}
@@ -37,7 +38,7 @@ export default function Home() {
 
        <Box display={{ xs: "none", md: "flex" }}>
 
-<img src="./Group 12.png" width="669px" height="580px"    alt="" />
+<Image src="./Group 12.png" width="669px" height="580px"    alt="" />
   
      </Box>
     </Stack>
@@ -53,7 +54,7 @@ export default function Home() {
        <Box display={{ xs: "none", md: "flex" }}
        maxWidth={{xs:"334px", sm:"502px", md:"669px"}}>
 
-<img src="./Rectangle 11 (1).png"  width="669px" height="600px"  alt="" />
+<Image src="./Rectangle 11 (1).png"  width="669px" height="600px"  alt="" />
   
      </Box>
        <Box maxWidth={{xs:"100%", sm:"100%", md:"379px"}}

@@ -46,7 +46,7 @@ const items = [
         {items.map((item, index)  =>  (
 
 <Box textAlign="center"  key={index}>
-    <img  src={item.url} width="300px" height="200px" alt="" />
+    <Image src={item.url} width="300px" height="200px" alt="" />
 <Typography  mt={5} fontSize={{xs:"17px", sm:"26px", md:"34px"}}
 style={{fontWeight: "700px"}}>{item.caption1}</Typography>
 <Typography>{item.caption2}</Typography>
