@@ -2,6 +2,7 @@
 import React from 'react';
 import { AppBar, Box, Button, Stack, Toolbar, Typography } from "@mui/material"
 import Link from 'next/link';
+import Image from "next/image"
 
 
 const items = [
