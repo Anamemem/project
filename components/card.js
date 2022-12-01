@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 import React from 'react';
 import { AppBar, Box, Button, Stack, Toolbar, Typography } from "@mui/material"
 import Link from 'next/link';
@@ -46,7 +46,7 @@ const items = [
         {items.map((item, index)  =>  (
 
 <Box textAlign="center"  key={index}>
-    <img  src={item.url} width="100px" height="100px" alt="" />
+    <Image  src={item.url} width="100px" height="100px" alt="" />
 <Typography  mt={5} fontSize={{ xs:"11px", sm:"17px", md:"23px"}}
 style={{fontWeight: "800px"}}>{item.caption1}</Typography>
 <Typography>{item.caption2}</Typography>
